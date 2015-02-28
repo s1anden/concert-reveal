@@ -1,0 +1,13 @@
+{
+  "name": "concert-reveal",
+  "version": "0.0.1",
+  "authors": [
+    "slanden"
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "dependencies": {
+  }
+}

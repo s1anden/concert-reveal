@@ -1,0 +1,88 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'grunt-contrib-sync' ]
+2 info using npm@2.1.3
+3 info using node@v0.10.32
+4 verbose node symlink /usr/local/bin/node
+5 warn package.json concert-reveal@0.0.1 No README data
+6 silly cache add args [ 'grunt-contrib-sync', null ]
+7 verbose cache add spec grunt-contrib-sync
+8 silly cache add parsed spec { raw: 'grunt-contrib-sync',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'grunt-contrib-sync',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: '*',
+8 silly cache add   type: 'range' }
+9 verbose addNamed grunt-contrib-sync@*
+10 verbose addNamed grunt-contrib-sync@* not in flight; adding
+11 silly addNamed semver.valid null
+12 silly addNamed semver.validRange *
+13 silly addNameRange { name: 'grunt-contrib-sync', range: '*', hasData: false }
+14 verbose mapToRegistry name grunt-contrib-sync
+15 verbose mapToRegistry uri https://registry.npmjs.org/grunt-contrib-sync
+16 verbose request on initialization, where is /grunt-contrib-sync
+17 verbose request after pass 1, where is /grunt-contrib-sync
+18 verbose request url raw /grunt-contrib-sync
+19 verbose request resolving registry [ 'https://registry.npmjs.org/', './grunt-contrib-sync' ]
+20 verbose request after pass 2, where is https://registry.npmjs.org/grunt-contrib-sync
+21 verbose request no auth needed
+22 info attempt registry request try #1 at 18:09:00
+23 verbose request id fc081af14fb77698
+24 http request GET https://registry.npmjs.org/grunt-contrib-sync
+25 http 404 https://registry.npmjs.org/grunt-contrib-sync
+26 verbose headers { date: 'Fri, 27 Feb 2015 23:08:57 GMT',
+26 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+26 verbose headers   'content-type': 'application/json',
+26 verbose headers   'cache-control': 'max-age=0',
+26 verbose headers   'content-length': '52',
+26 verbose headers   'accept-ranges': 'bytes',
+26 verbose headers   via: '1.1 varnish',
+26 verbose headers   age: '0',
+26 verbose headers   'x-served-by': 'cache-jfk1034-JFK',
+26 verbose headers   'x-cache': 'MISS',
+26 verbose headers   'x-cache-hits': '0',
+26 verbose headers   'x-timer': 'S1425078537.831228,VS0,VE89',
+26 verbose headers   'keep-alive': 'timeout=10, max=50',
+26 verbose headers   connection: 'Keep-Alive' }
+27 silly registry.get cb [ 404,
+27 silly registry.get   { date: 'Fri, 27 Feb 2015 23:08:57 GMT',
+27 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 silly registry.get     'content-type': 'application/json',
+27 silly registry.get     'cache-control': 'max-age=0',
+27 silly registry.get     'content-length': '52',
+27 silly registry.get     'accept-ranges': 'bytes',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     age: '0',
+27 silly registry.get     'x-served-by': 'cache-jfk1034-JFK',
+27 silly registry.get     'x-cache': 'MISS',
+27 silly registry.get     'x-cache-hits': '0',
+27 silly registry.get     'x-timer': 'S1425078537.831228,VS0,VE89',
+27 silly registry.get     'keep-alive': 'timeout=10, max=50',
+27 silly registry.get     connection: 'Keep-Alive' } ]
+28 verbose stack Error: 404 Not Found: grunt-contrib-sync
+28 verbose stack     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:258:14)
+28 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:197:65)
+28 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:237:22)
+28 verbose stack     at Request.emit (events.js:98:17)
+28 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1146:14)
+28 verbose stack     at Request.emit (events.js:117:20)
+28 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1097:12)
+28 verbose stack     at IncomingMessage.emit (events.js:117:20)
+28 verbose stack     at _stream_readable.js:943:16
+28 verbose stack     at process._tickCallback (node.js:419:13)
+29 verbose statusCode 404
+30 verbose pkgid grunt-contrib-sync
+31 verbose cwd /Users/slanden/Documents/S15/AB/reveal
+32 error Darwin 14.0.0
+33 error argv "node" "/usr/local/bin/npm" "install" "grunt-contrib-sync"
+34 error node v0.10.32
+35 error npm  v2.1.3
+36 error code E404
+37 error 404 Not Found: grunt-contrib-sync
+37 error 404
+37 error 404 'grunt-contrib-sync' is not in the npm registry.
+37 error 404 You should bug the author to publish it (or use the name yourself!)
+37 error 404 It was specified as a dependency of 'concert-reveal'
+37 error 404
+37 error 404 Note that you can also install from a
+37 error 404 tarball, folder, http url, or git url.
+38 verbose exit [ 1, true ]
