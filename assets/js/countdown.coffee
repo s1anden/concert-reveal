@@ -1,5 +1,5 @@
 $(document).ready ->
-  $('#countdown').countdown(new Date(2015,2,2,20,30)).on 'update.countdown', (event) ->
+  $('#countdown').countdown(new Date(2015,2,2,21,30)).on 'update.countdown', (event) ->
     $("#days").val(event.offset.days).trigger('change')
     $("#hours").val(event.offset.hours).trigger('change')
     $("#minutes").val(event.offset.minutes).trigger('change')
